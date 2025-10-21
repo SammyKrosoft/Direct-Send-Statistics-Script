@@ -31,7 +31,6 @@ This script automates the process of:
   ```powershell
   Install-Module ExchangeOnlineManagement
 
-Here’s a **README section** you can include to explain how to run the script and execute the function:
 
 ## How to interpret the results
 
