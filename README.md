@@ -82,6 +82,17 @@ Start-DirectSendAudit
 
 ***
 
+The script will:
+
+- Ask for output folder (press Enter for default C:\Temp).
+- Ask for number of days (press Enter for default 7).
+- Ask for notification email (press Enter for default).
+- Then it will connect to Exchange Online and guide you through downloading the report.
+
+
+✅ Tip: Keep the PowerShell window open until the report is ready and downloaded.
+
+
 ### **Quick One-Liner**
 
 If you want to **load and run in one go**:
