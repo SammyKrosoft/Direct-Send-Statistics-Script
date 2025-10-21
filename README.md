@@ -27,5 +27,69 @@ This script automates the process of:
 ## Prerequisites
 - **PowerShell 5.x or later** (or PowerShell 7).
 - **Exchange Online PowerShell module**:
+
+Here’s a **README section** you can include to explain how to run the script and execute the function:
+
+***
+
+## **How to Run the Script**
+
+### **1. Save the Script**
+
+*   Copy the full script into a file named:
+        Start-DirectSendAudit.ps1
+
+### **2. Open PowerShell**
+
+*   Launch **PowerShell** (preferably as Administrator).
+*   Ensure you have the **Exchange Online Management module** installed:
+    ```powershell
+    Install-Module ExchangeOnlineManagement
+    ```
+
+### **3. Set Execution Policy (if needed)**
+
+If scripts are blocked, allow them for the current session:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
+### **4. Navigate to the Script Location**
+
+```powershell
+cd "C:\Path\To\Your\Script"
+```
+
+### **5. Load the Function (Dot-Source the Script)**
+
+To make the function available in your session:
+
+```powershell
+. .\Start-DirectSendAudit.ps1
+```
+
+*(Note the dot and space before the script path.)*
+
+### **6. Run the Function**
+
+```powershell
+Start-DirectSendAudit
+```
+
+***
+
+### **Quick One-Liner**
+
+If you want to **load and run in one go**:
+
+```powershell
+. .\Start-DirectSendAudit.ps1; Start-DirectSendAudit
+```
+
+***
+
+✅ **Tip:** If you use this often, add the function to your **PowerShell profile** so it’s always available.
+
   ```powershell
   Install-Module ExchangeOnlineManagement
