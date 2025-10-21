@@ -28,6 +28,9 @@ This script automates the process of:
 - **PowerShell 5.x or later** (or PowerShell 7).
 - **Exchange Online PowerShell module**:
 
+  ```powershell
+  Install-Module ExchangeOnlineManagement
+
 Here’s a **README section** you can include to explain how to run the script and execute the function:
 
 ***
@@ -91,5 +94,3 @@ If you want to **load and run in one go**:
 
 ✅ **Tip:** If you use this often, add the function to your **PowerShell profile** so it’s always available.
 
-  ```powershell
-  Install-Module ExchangeOnlineManagement
