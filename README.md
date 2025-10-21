@@ -80,8 +80,6 @@ To make the function available in your session:
 Start-DirectSendAudit
 ```
 
-***
-
 The script will:
 
 - Ask for output folder (press Enter for default C:\Temp).
@@ -92,6 +90,7 @@ The script will:
 
 ✅ Tip: Keep the PowerShell window open until the report is ready and downloaded.
 
+***
 
 ### **Quick One-Liner**
 
