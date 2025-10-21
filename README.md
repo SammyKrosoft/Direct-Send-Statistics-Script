@@ -33,7 +33,14 @@ This script automates the process of:
 
 Here’s a **README section** you can include to explain how to run the script and execute the function:
 
+## How to interpret the results
+
+- The Historical Search returns **all inbound messages with no connector**.
+- Filtering to **your own domains in the sender** helps isolate **Direct Send from your internal devices/apps** (e.g., printers, apps, or on-prem systems sending through MX directly to Exchange Online without SMTP AUTH).
+- It’s a **signal**, not definitive proof—some additional investigation may still be needed.
+
 ***
+
 
 ## **How to Run the Script**
 
