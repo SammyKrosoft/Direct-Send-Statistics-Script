@@ -1,7 +1,8 @@
 # Start-DirectSendAudit.ps1
 
 ## Overview
-`Start-DirectSendAudit.ps1` is a PowerShell script designed to help Microsoft 365 administrators **detect potential Direct Send usage** within their tenant. Direct Send occurs when internal systems or devices send emails directly to Exchange Online without using an authenticated connector, which can pose security and compliance risks.
+
+Written by my colleague Tawanda Nicholson-Robinson from Microsoft, `Start-DirectSendAudit.ps1` is a PowerShell script designed to help Microsoft 365 administrators **detect potential Direct Send usage** within their tenant. Direct Send occurs when internal systems or devices send emails directly to Exchange Online without using an authenticated connector, which can pose security and compliance risks.
 
 This script automates the process of:
 - Connecting to **Exchange Online**.
